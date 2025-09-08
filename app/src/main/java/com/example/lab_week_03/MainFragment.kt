@@ -94,6 +94,6 @@ class MainFragment : Fragment() {
                     putString(ARG_PARAM2, param2)
                 }
             }
-        private const val TAG = "MainFragment" //buat inisialisasi TAG nya
+        private const val TAG = "MainFragment" //buat inisialisasi TAG
     }
 }
