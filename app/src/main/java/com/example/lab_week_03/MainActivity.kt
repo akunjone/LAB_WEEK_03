@@ -1,14 +1,17 @@
 package com.example.lab_week_03
 
 import android.os.Bundle
+import android.os.PersistableBundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.util.Log
 
-class MainActivity : AppCompatActivity() {
-
+interface CoffeeListener{
+    fun onSelected(id: Int)
+}
+class MainActivity : AppCompatActivity(), CoffeeListener {
     companion object {
         private const val TAG = "MainActivity"
     }
@@ -50,5 +53,10 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "onDestroy")
     }
 
+    override fun onSelected(id: Int){
+        val detailFragment = supportFragmentManager
+            .findFragmentById(R.id.fragment_detail)  as DetailFragment
+        detailFragment.setCoffeeData(id)
+    }
 
 }
