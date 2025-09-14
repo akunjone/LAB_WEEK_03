@@ -37,5 +37,52 @@
             android:id="@+id/latte"
             android:padding="10dp"
             android:text="@string/latte_title"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-- TAMBAHAN --"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/arabica"
+            android:padding="10dp"
+            android:text="ARABICA"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/robusta"
+            android:padding="10dp"
+            android:text="ROBUSTA"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/liberika"
+            android:padding="10dp"
+            android:text="LIBERIKA"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/excelsa"
+            android:padding="10dp"
+            android:text="EXCELSA"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/luwak"
+            android:padding="10dp"
+            android:text="LUWAK"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aren"
+            android:padding="10dp"
+            android:text="AREN SUGAR COFFEE"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/torajan"
+            android:padding="10dp"
+            android:text="TORAJAN"/>
     </LinearLayout>
 </ScrollView>

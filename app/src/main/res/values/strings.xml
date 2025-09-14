@@ -12,4 +12,19 @@
         espresso with steamed milk and only a little milk foam poured over it. Serve in a
         latte glass or a coffee cup. Flavored syrup can be added.</string>
     <string name="coffee_list">Coffee List</string>
+    <!--arabica, robusta, liberika, excelsa, luwak, aren sugar, torajan-->
+    <string name="arabica_title">ARABICA</string>
+    <string name="arabica_desc">Coffea arabica, also known as the Arabica coffee, is a species of flowering plant in the coffee and madder family Rubiaceae. It is believed to be the first species of coffee to have been cultivated and is the dominant cultivar, representing about 60% of global production.</string>
+    <string name="robusta_title">ROBUSTA</string>
+    <string name="robusta_desc">Robusta offers an earthy flavour, somewhat grainy, with tones of oak and pleasant bitterness. The aftertaste of Robusta is also often reminiscent of peanuts.</string>
+    <string name="liberika_title">LIBERIKA</string>
+    <string name="liberika_desc">Liberica refers to Coffea liberica, a rare coffee variety primarily grown in Southeast Asia, particularly Malaysia and the Philippines, known for its unique flavor profile. The beans are large and irregularly shaped compared to Arabica and Robusta. It has the lowest caffeine concentration among the three main coffee cultivars. </string>
+    <string name="excelsa_title">EXCELSA</string>
+    <string name="excelsa_desc">Excelsa coffee is a unique, resilient, and productive species, despite its minimal presence in the global coffee market.</string>
+    <string name="luwak_title">LUWAK</string>
+    <string name="luwak_desc">Luwak coffee, or Kopi Luwak, is a luxury coffee produced from coffee beans that have been eaten and excreted by an Asian palm civet, a small cat-like mammal. The beans undergo partial digestion and fermentation in the civet digestive tract, which is believed to reduce their bitterness and enhance their flavor. After being collected from the civet droppings, the beans are thoroughly washed, cleaned, roasted, and brewed, creating a rare and expensive beverage prized for its smooth, rich, and less acidic taste</string>
+    <string name="aren_title">AREN SUGAR COFFEE</string>
+    <string name="aren_desc">Aren coffee, or Es Kopi Susu Gula Aren, is an Indonesian-style iced latte made with espresso, milk, and gula aren (arenga palm sugar), which provides a unique caramel-like sweetness and smoky flavor.</string>
+    <string name="torajan_title">TORAJAN COFFEE</string>
+    <string name="torajan_desc">Torajan coffee is a full-bodied, low-acidity coffee from the Tana Toraja highlands of Sulawesi, Indonesia, prized for its complex flavor profile of earthy, smoky, spicy, and sweet notes, often with caramel and chocolate hints.</string>
 </resources>

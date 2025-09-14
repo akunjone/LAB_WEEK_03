@@ -19,5 +19,11 @@
         android:id="@+id/coffeeDetail"
         android:name="com.example.lab_week_03.DetailFragment"
         android:label="Detail"
-        tools:layout="@layout/fragment_detail" />
+        tools:layout="@layout/fragment_detail" >
+        <action
+            android:id="@+id/action_detailToList"
+            app:destination="@id/coffeeList"
+            app:popUpTo="@id/coffeeDetail"
+            app:popUpToSaveState="true"/>
+    </fragment>
 </navigation>

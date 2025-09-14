@@ -6,6 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Button
+import androidx.navigation.NavOptions
+import androidx.navigation.fragment.findNavController
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -47,6 +50,17 @@ class DetailFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val coffeeId = arguments?.getInt(COFFEE_ID, 0)?: 0
         setCoffeeData(coffeeId)
+
+        val backButton = view.findViewById<Button>(R.id.back_button)
+        backButton.setOnClickListener {
+            findNavController().navigate(
+                R.id.action_detailToList,
+                null,
+                NavOptions.Builder()
+                    .setPopUpTo(R.id.coffeeDetail, true)
+                    .build()
+            )
+        }
     }
 
     fun setCoffeeData(id: Int){
@@ -62,6 +76,34 @@ class DetailFragment : Fragment() {
             R.id.latte->{
                 coffeeTitle?.text = getString(R.string.latte_title)
                 coffeeDesc?.text = getString(R.string.latte_desc)
+            }
+            R.id.arabica->{
+                coffeeTitle?.text=getString(R.string.arabica_title)
+                coffeeDesc?.text=getString(R.string.arabica_desc)
+            }
+            R.id.robusta->{
+                coffeeTitle?.text=getString(R.string.robusta_title)
+                coffeeDesc?.text=getString(R.string.robusta_desc)
+            }
+            R.id.liberika->{
+                coffeeTitle?.text=getString(R.string.liberika_title)
+                coffeeDesc?.text=getString(R.string.liberika_desc)
+            }
+            R.id.excelsa->{
+                coffeeTitle?.text=getString(R.string.excelsa_title)
+                coffeeDesc?.text=getString(R.string.excelsa_desc)
+            }
+            R.id.luwak->{
+                coffeeTitle?.text=getString(R.string.luwak_title)
+                coffeeDesc?.text=getString(R.string.luwak_desc)
+            }
+            R.id.aren->{
+                coffeeTitle?.text=getString(R.string.aren_title)
+                coffeeDesc?.text=getString(R.string.aren_desc)
+            }
+            R.id.torajan->{
+                coffeeTitle?.text=getString(R.string.torajan_title)
+                coffeeDesc?.text=getString(R.string.torajan_desc)
             }
         }
     }
